@@ -1,11 +1,16 @@
-```python
-from github.profile import ReadMe
-class lazy ( ReadMe ) :
-    def __init__ ( self ) :
-        self.name  = "lazycodein"
-        self.location  = "Indonesia"
-    def about ( self ) :
-        print( f"{self.name} Developer Team." )
-me = lazy()
-me.about()
+```php
+<?php
+
+class Lazy {
+    function about () {
+        return [
+            'name' => 'LazyCode Community',
+            'location' => 'Indonesia',
+            'Wangsaff' => 'https://chat.whatsapp.com/Cxs447fSIAyGDE4RH266o9'
+        ];
+    }
+}
+
+$lambo = new Lazy();
+print_r($lambo->about());
 ```
